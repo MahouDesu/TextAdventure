@@ -1,0 +1,13 @@
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\bin\Debug\netcoreapp3.0\TextAdventure.exe
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\bin\Debug\netcoreapp3.0\TextAdventure.deps.json
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\bin\Debug\netcoreapp3.0\TextAdventure.runtimeconfig.json
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\bin\Debug\netcoreapp3.0\TextAdventure.runtimeconfig.dev.json
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\bin\Debug\netcoreapp3.0\TextAdventure.dll
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\bin\Debug\netcoreapp3.0\TextAdventure.pdb
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\obj\Debug\netcoreapp3.0\TextAdventure.csprojAssemblyReference.cache
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\obj\Debug\netcoreapp3.0\TextAdventure.AssemblyInfoInputs.cache
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\obj\Debug\netcoreapp3.0\TextAdventure.AssemblyInfo.cs
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\obj\Debug\netcoreapp3.0\TextAdventure.dll
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\obj\Debug\netcoreapp3.0\TextAdventure.pdb
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\bin\Debug\netcoreapp3.0\Colorful.Console.dll
+C:\Users\Dy1an\source\repos\TextAdventure\TextAdventure\obj\Debug\netcoreapp3.0\TextAdventure.csproj.CopyComplete
