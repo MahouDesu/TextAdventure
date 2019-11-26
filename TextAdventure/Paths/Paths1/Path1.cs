@@ -6,7 +6,7 @@ using System.Drawing;
 
 namespace TextAdventure
 {
-    static class Path1
+    class Path1
     {
         static public bool Route()
         {
@@ -28,10 +28,11 @@ namespace TextAdventure
                 switch (reply)
                 {
                     case 1:
+                        Console.WriteLine("[███████████████       ]");
                         Writer.TextMod("You lose 10 health");
                         Console.ReadLine();
                         Console.Clear();
-                        //add continuation
+                        Path2.Route();
                         break;
                     case 2:
                         Writer.Hasslehoff("OMAE WA MOU");
@@ -42,11 +43,12 @@ namespace TextAdventure
                         Environment.Exit(0);
                         break;
                     case 3:
-                        Writer.Hasslehoff("NEXT QUESTION");
-                        Writer.TextMod("");
+                        Writer.Hasslehoff("WOO");
+                        Writer.TextMod("You dodged all the bad stuff.");
+                        Writer.TextMod("Press enter to continue.");
                         Console.ReadLine();
                         Console.Clear();
-                        //add continuation
+                        Path2.Route();
                         break;
                     case 4:
                         Writer.Hasslehoff("HOW COULD YOU!?");
@@ -55,16 +57,15 @@ namespace TextAdventure
                         Console.Clear();
                         Writer.TextMod("You were arrested, game over..");
                         Environment.Exit(0);
-
                         break;
                     case 5:
-                        Writer.Hasslehoff("");
-                        Writer.TextMod("");
+                        Writer.Hasslehoff("DAVID");
+                        Writer.TextMod("Hasslehoff");
                         Console.ReadLine();
                         Console.Clear();
                         break;
                     default:
-                        Writer.TextMod("please pick a number 1-5");
+                        Writer.TextMod("Please pick a number 1-5");
                         break;
 
                 }

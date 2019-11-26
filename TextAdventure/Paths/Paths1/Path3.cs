@@ -25,20 +25,38 @@ namespace TextAdventure
                 switch (reply)
                 {
                     case 1:
-                        Writer.TextMod("");
+                        Writer.Hasslehoff("CRITICAL!");
+                        Console.WriteLine("[                      ]");
+                        Writer.TextMod("You take 100 damage?!");
+                        Writer.TextMod("You died, press enter to continue.");
+                        Console.ReadLine();
                         break;
                     case 2:
-                        Writer.TextMod("Path 3 case 2 triggered");
+                        Writer.Hasslehoff("YOU DIED..");
+                        Console.WriteLine("[                      ]");
+                        Writer.TextMod("You take 1 damage");
+                        Writer.TextMod("You died, press enter to continue.");
+                        Console.ReadLine();
+                        Environment.Exit(0);
                         break;
                     case 3:
-                        Writer.TextMod("Path 3 case 3 triggered");
+                        Writer.Hasslehoff("SUPER EFFECTIVE");
+                        Console.WriteLine("[                      ]");
+                        Writer.TextMod("You take 500 damage?!");
+                        Writer.TextMod("You died, press enter to continue.");
+                        Console.ReadLine();
+                        Environment.Exit(0);
                         break;
                     case 4:
-                        Writer.TextMod("exiting switch");
-                        canContinue = false;
+                        Writer.Hasslehoff("YOU'VE GOTTA BE KIDDING ME");
+                        Console.WriteLine("[                      ]");
+                        Writer.TextMod("You take 100,000,000 damage???? Actually how did you do that?");
+                        Writer.TextMod("You died, press enter to continue.");
+                        Console.ReadLine();
+                        Environment.Exit(0);
                         break;
                     default:
-                        Writer.TextMod("activating default, exiting switch");
+                        Writer.TextMod("Please input a number between 1-4");
                         canContinue = false;
                         break;
                 }
